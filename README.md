@@ -15,3 +15,10 @@ In Jenkins, I used Poll SCM trigger which will go to github repo in every 1 minu
 
 ## automated push from local github to Global GitHub repository
 To make automated push as any commit done in the local workspace, I used a post-coomit hook. This script run automatically as any commit done and code is being uploaded in automated way and then i will automatically detected by Jenkins.
+
+
+
+
+
+https://user-images.githubusercontent.com/59717751/170964174-198a0ca5-1a8d-4b43-8efe-730fb5e4d0c5.mp4
+
