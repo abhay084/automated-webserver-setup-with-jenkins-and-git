@@ -13,5 +13,5 @@ In this project I have created a automated pipeline for Apache webserver deploym
 ## Trigger used for Auto change Detection
 In Jenkins, I used Poll SCM trigger which will go to github repo in every 1 minute (60 sec) and if there is any change is commit id than that of previous then it triggers it and pull the changed code and build it.
 
-### automated push from local github to Global GitHub repository
+## automated push from local github to Global GitHub repository
 To make automated push as any commit done in the local workspace, I used a post-coomit hook. This script run automatically as any commit done and code is being uploaded in automated way and then i will automatically detected by Jenkins.
